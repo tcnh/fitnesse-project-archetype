@@ -13,7 +13,7 @@ To use the archetype from the command line:
 
  * Go to the directory under which you want to create the project.
  * (Maven should find the latest version of the archetype automatically, but it doesn't always.) Check the latest version number on the [releases page](https://github.com/fhoeben/fitnesse-project-archetype/releases/latest), and use this instead of `<latest-version>` in the next command.
- * Have the archetype create the project: `mvn archetype:generate -DarchetypeGroupId=nl.hsac -DarchetypeArtifactId=fitnesse-project -DarchetypeVersion=<latest-version>`
+ * Have the archetype create the project: `mvn archetype:generate -DarchetypeGroupId=com.github.tcnh -DarchetypeArtifactId=fitnesse-project -DarchetypeVersion=1.0.1`
  * Maven will prompt you for:
    * `groupId`: value of `groupId` element in the generated project's `pom.xml`.
    * `artifactId`: value of `artifactId` element in the generated project's `pom.xml`, and the name of the directory the project is created in.
