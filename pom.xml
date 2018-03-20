@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.tcnh</groupId>
     <artifactId>fitnesse-project</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>Archetype - FitNesse project based on hsac-fitnesse-fixtures extended with bootstrap-plus</name>
     <description>Project to create a Maven archetype that can be used to generate a FitNesse project based on hsac-fitnesse-fixtures extended with bootstrap-plus</description>
     <url>https://github.com/tcnh/fitnesse-project-archetype</url>
@@ -167,12 +167,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
+            <id>snapshots</id>
             <name>Maven Central Snapshot Repository</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
+            <id>staging</id>
             <name>Maven Central Staging Repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
