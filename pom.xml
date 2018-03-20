@@ -35,9 +35,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com/tcnh/fitnesse-project-archetype.git</connection>
+        <connection>scm:git:git@github.com:tcnh/fitnesse-project-archetype.git</connection>
         <url>https://github.com/tcnh/fitnesse-project-archetype</url>
-        <developerConnection>scm:git@github.com/tcnh/fitnesse-project-archetype.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:tcnh/fitnesse-project-archetype.git</developerConnection>
         <tag>fitnesse-project-1.0.0</tag>
     </scm>
 
