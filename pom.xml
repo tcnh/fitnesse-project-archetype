@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.tcnh</groupId>
     <artifactId>fitnesse-project</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>Archetype - FitNesse project based on hsac-fitnesse-fixtures extended with bootstrap-plus</name>
     <description>Project to create a Maven archetype that can be used to generate a FitNesse project based on hsac-fitnesse-fixtures extended with bootstrap-plus</description>
     <url>https://github.com/tcnh/fitnesse-project-archetype</url>
@@ -39,7 +38,8 @@
         <connection>scm:git:git://github.com/tcnh/fitnesse-project-archetype.git</connection>
         <url>https://github.com/tcnh/fitnesse-project-archetype</url>
         <developerConnection>scm:git:git://github.com/tcnh/fitnesse-project-archetype.git</developerConnection>
-    </scm>
+      <tag>fitnesse-project-1.0.0</tag>
+  </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
