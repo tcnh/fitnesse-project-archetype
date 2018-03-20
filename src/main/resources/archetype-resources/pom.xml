@@ -13,9 +13,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <fitnesse.version>20180127</fitnesse.version>
+        <fitnesse.version>20180319</fitnesse.version>
         <hsac.fixtures.version>3.21.1</hsac.fixtures.version>
         <surefire.version>2.20.1</surefire.version>
+        <bootstrap-plus.version>1.0.7</bootstrap-plus.version>
+        <autocomplete-responder.version>1.0.8</autocomplete-responder.version>
         <!-- classpath that Fitnesse uses when not starting from IDE/maven -->
         <standalone.classpath>wiki/fixtures</standalone.classpath>
         <fitnesse.port>9090</fitnesse.port>
@@ -24,7 +26,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.fitnesse</groupId>
+            <groupId>com.github.tcnh</groupId>
             <artifactId>fitnesse</artifactId>
             <version>${fitnesse.version}</version>
             <scope>provided</scope>
@@ -187,7 +189,7 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>org.fitnesse</groupId>
+                                    <groupId>com.github.tcnh</groupId>
                                     <artifactId>fitnesse</artifactId>
                                     <classifier>standalone</classifier>
                                     <overWrite>true</overWrite>
@@ -203,6 +205,30 @@
                         <goals>
                             <goal>copy-dependencies</goal>
                         </goals>
+                    </execution>
+                    <execution>
+                        <id>copy-plugins</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>com.github.tcnh</groupId>
+                                    <artifactId>fitnesse-bootstrap-plus-theme</artifactId>
+                                    <version>${bootstrap-plus.version}</version>
+                                    <overWrite>true</overWrite>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>com.github.tcnh</groupId>
+                                    <artifactId>fitnesse-autocomplete-responder</artifactId>
+                                    <version>${autocomplete-responder.version}</version>
+                                    <overWrite>true</overWrite>
+                                </artifactItem>
+                            </artifactItems>
+                            <outputDirectory>${project.basedir}/wiki/plugins</outputDirectory>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>

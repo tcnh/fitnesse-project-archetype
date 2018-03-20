@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>nl.hsac</groupId>
+    <groupId>com.github.tcnh</groupId>
     <artifactId>fitnesse-project</artifactId>
-    <version>1.3.1-SNAPSHOT</version>
-    <name>Archetype - FitNesse project based on hsac-fitnesse-fixtures</name>
-    <description>Project to create a Maven archetype that can be used to generate a FitNesse project based on hsac-fitnesse-fixtures</description>
-    <url>https://github.com/fhoeben/fitnesse-project-archetype</url>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>Archetype - FitNesse project based on hsac-fitnesse-fixtures extended with bootstrap-plus</name>
+    <description>Project to create a Maven archetype that can be used to generate a FitNesse project based on hsac-fitnesse-fixtures extended with bootstrap-plus</description>
+    <url>https://github.com/tcnh/fitnesse-project-archetype</url>
 
     <packaging>maven-archetype</packaging>
 
@@ -26,12 +26,19 @@
             <organization>Hoeben Software Architecture Consulting B.V.</organization>
             <organizationUrl>https://nl.linkedin.com/in/friedhoeben</organizationUrl>
         </developer>
+
+        <developer>
+            <name>Tom Heintzberger</name>
+            <email>tom.heintzberger@gmail.com</email>
+            <organization>Praegus B.V.</organization>
+            <organizationUrl>https://www.praegus.nl</organizationUrl>
+        </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/fhoeben/fitnesse-project-archetype.git</connection>
-        <url>https://github.com/fhoeben/fitnesse-project-archetype</url>
-        <developerConnection>scm:git:git://github.com/fhoeben/fitnesse-project-archetype.git</developerConnection>
+        <connection>scm:git:git://github.com/tcnh/fitnesse-project-archetype.git</connection>
+        <url>https://github.com/tcnh/fitnesse-project-archetype</url>
+        <developerConnection>scm:git:git://github.com/tcnh/fitnesse-project-archetype.git</developerConnection>
     </scm>
 
     <properties>
