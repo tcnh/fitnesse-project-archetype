@@ -1,11 +1,13 @@
 # FitNesse using hsac-fitnesse-fixtures project archetype
-[![Maven Central](https://img.shields.io/maven-central/v/nl.hsac/fitnesse-project.svg?maxAge=86400)](https://mvnrepository.com/artifact/nl.hsac/fitnesse-project)
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.tcnh/fitnesse-project.svg?maxAge=86400)](https://mvnrepository.com/artifact/nl.hsac/fitnesse-project)
 
 This project contains the code to create a Maven archetype that can be used to generate a [FitNesse](http://fitnesse.org) 
 project based on [hsac-fitnesse-fixtures](https://github.com/fhoeben/hsac-fitnesse-fixtures).
 
 Based on this archetype one can create a new Maven project to contain a FitNesse installation/testSuite.
 The archetype will create the boilerplate so the use can focus on writing their tests.
+
+This branch is extended with allure and bootstrap-plus. It also uses a bootlegged version of fitnesse, including a fix for velocity and the ability to use expressions in Slim symbols.
 
 ## Usage
 
