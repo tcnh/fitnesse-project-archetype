@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.tcnh</groupId>
     <artifactId>fitnesse-project</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <name>Archetype - FitNesse project based on hsac-fitnesse-fixtures extended with bootstrap-plus and allure</name>
     <description>Project to create a Maven archetype that can be used to generate a FitNesse project based on hsac-fitnesse-fixtures extended with bootstrap-plus and allure</description>
     <url>https://github.com/tcnh/fitnesse-project-archetype</url>
@@ -38,7 +38,7 @@
         <connection>scm:git:git@github.com:tcnh/fitnesse-project-archetype.git</connection>
         <url>https://github.com/tcnh/fitnesse-project-archetype</url>
         <developerConnection>scm:git:git@github.com:tcnh/fitnesse-project-archetype.git</developerConnection>
-        <tag>fitnesse-project-1.0.0</tag>
+        <tag>fitnesse-project-1.0.3</tag>
     </scm>
 
     <properties>
